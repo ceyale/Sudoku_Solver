@@ -86,7 +86,7 @@ def run_pipeline(image_path: str, show_steps: bool = True) -> None:
     # ----------------------------------------------------------------
     # Schritt 1: Bild laden und Sudoku-Quadrat finden
     # ----------------------------------------------------------------
-    print("\n[1/4] Bild wird geladen und Sudoku-Quadrat wird gesucht...")
+    print("\n[1/4] Bild wiird geladen und Sudoku-Quadrat wird gesucht...")
     try:
         original, warped, warped_bin = process_image(image_path)
         print("      ✓ Sudoku-Quadrat gefunden und transformiert!")
